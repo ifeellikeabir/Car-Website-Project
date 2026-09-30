@@ -51,3 +51,55 @@ img {
     display: block;
     margin: 15px auto 30px auto;
 }
+
+/* Color Theme */
+
+header h1 {
+    color: #e63946;
+}
+
+nav a:hover {
+    color: #e63946;
+    text-decoration: none;
+}
+
+main {
+    border-top: 5px solid #e63946;
+    border-radius: 10px;
+}
+
+h1, h2 {
+    color: #c1121f;
+}
+
+main a {
+    color: #c1121f;
+}
+
+main a:hover {
+    color: #780000;
+}
+
+footer {
+    background-color: #111111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+/* Different page colors */
+
+.home-page main {
+    background-color: #dce6f1;
+}
+
+.cars-page main {
+    background-color: #f4dddd;
+}
+
+.performance-page main {
+    background-color: #f5ead1;
+}
+
+.gallery-page main {
+    background-color: #dcecf2;
+}
